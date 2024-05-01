@@ -1,0 +1,9 @@
+If you haven't already done so, go download the pythag-starter.rkt file from the week 1 page. Use only the language you've learned so far to answer the question.
+
+Assume that the two short sides of a right triangle have length 3 and 4. What is the length of the long side? Recall the Pythagorean Theorem tells us that:
+
+length of the unknown side, ?, equals the square root of 3 squared plus 4 squared
+
+In the pythag starter file, write a BSL expression that produces the value of ? for this triangle where the other two sides have lengths 3 and 4. Your expression shouldn't contain any numbers other than 3 and 4 (or in other words, all the math should be done in your expression, not in your head).
+
+While writing your expression, focus specifically on formatting conventions in regards to where to put spaces, and where not to put spaces too! Dr Racket knows how to evaluate (+(+ 1 2)3), ( + ( + 1 2) 3), and (+ (+ 1 2 ) 3 ). But in the formatting conventions we are using, we want spaces as in (+ (+ 1 2) 3).
